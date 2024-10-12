@@ -63,6 +63,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="main style3 secondary">
+            <div className="overlay"></div> 
             <div className="content">
                 <header>
                     <h2>Team</h2>
