@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/team13project/static/css/main.d70efaab.css",
-    "main.js": "/team13project/static/js/main.e81a32b2.js",
+    "main.css": "/team13project/static/css/main.ba736a69.css",
+    "main.js": "/team13project/static/js/main.375c182f.js",
     "static/js/453.8155a1f1.chunk.js": "/team13project/static/js/453.8155a1f1.chunk.js",
     "static/media/Findings.jpg": "/team13project/static/media/Findings.2d1d7caeebdc3b82f1aa.jpg",
+    "static/media/Team.jpg": "/team13project/static/media/Team.4f92fe85563baf9f34c3.jpg",
     "static/media/Reference.jpg": "/team13project/static/media/Reference.5d881d4ea400a9c914ca.jpg",
     "static/media/Pranithapadala.jpg": "/team13project/static/media/Pranithapadala.c9cc81ecbe70e6c1bb7b.jpg",
     "static/media/Overview.jpg": "/team13project/static/media/Overview.9d77a97a81a14919c941.jpg",
@@ -19,12 +20,12 @@
     "static/media/dark-arrow.svg": "/team13project/static/media/dark-arrow.75bb0ee3870f4a5bee0a.svg",
     "static/media/poptrox-nav.svg": "/team13project/static/media/poptrox-nav.0e8d2b12c09f750dbb5d.svg",
     "static/media/poptrox-closer.svg": "/team13project/static/media/poptrox-closer.2b19c5c084c0f990c8c5.svg",
-    "main.d70efaab.css.map": "/team13project/static/css/main.d70efaab.css.map",
-    "main.e81a32b2.js.map": "/team13project/static/js/main.e81a32b2.js.map",
+    "main.ba736a69.css.map": "/team13project/static/css/main.ba736a69.css.map",
+    "main.375c182f.js.map": "/team13project/static/js/main.375c182f.js.map",
     "453.8155a1f1.chunk.js.map": "/team13project/static/js/453.8155a1f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d70efaab.css",
-    "static/js/main.e81a32b2.js"
+    "static/css/main.ba736a69.css",
+    "static/js/main.375c182f.js"
   ]
 }
