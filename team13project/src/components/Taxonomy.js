@@ -38,6 +38,7 @@ const MyWork = () => {
 
     return (
         <section id="work" className="main style3 primary dark">
+            <div className="overlay"></div> 
             <div className="content">
                 <header>
                     

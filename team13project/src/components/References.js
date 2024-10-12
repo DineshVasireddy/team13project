@@ -3,6 +3,7 @@ import React from 'react';
 const References = () => {
     return (
         <section id="one" className="main style2 right dark fullscreen">
+            <div className="overlay"></div> 
             <div className="content box style2">
                 <header>
                     <h2>References</h2>

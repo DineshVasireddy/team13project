@@ -3,6 +3,7 @@ import React from 'react';
 const Findings = () => {
     return (
         <section id="two" className="main style2 left dark fullscreen">
+            <div className="overlay"></div> 
             <div className="content box style2">
                 <header>
                     <h2>Findings</h2>

@@ -3,7 +3,7 @@ import React from 'react';
 const Overview = () => {
     return (
         <section id="intro" className="main style1 dark fullscreen">
-            <div className="overlay"></div> {/* Add overlay here */}
+            <div className="overlay"></div> 
             <div className="content">
                 <header>
                     <h2>Overview</h2>
