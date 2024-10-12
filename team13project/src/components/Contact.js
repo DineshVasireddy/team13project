@@ -96,6 +96,7 @@ const Contact = () => {
                     )}
                 </div>
             </div>
+            <a href="#one" className="button style3 up anchored">Previous</a>
         </section>
     );
 };

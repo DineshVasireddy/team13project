@@ -22,7 +22,8 @@ const References = () => {
                     <li>Curabitur egestas consectetur magna.</li>
                 </ul>
             </div>
-            <a href="#two" className="button style2 down anchored">Next</a>
+            <a href="#work" className="button style3 up anchored">Previous</a>
+            <a href="#contact" className="button style2 down anchored">Next</a>
         </section>
     );
 };

@@ -35,7 +35,7 @@ const Overview = () => {
                 </ul>
 
                 <footer>
-                    <a href="#one" className="button style2 down">More</a>
+                    <a href="#two" className="button style2 down">More</a>
                 </footer>
             </div>
         </section>

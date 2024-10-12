@@ -37,9 +37,10 @@ const MyWork = () => {
     };
 
     return (
-        <section id="work" className="main style3 primary">
+        <section id="work" className="main style3 primary dark">
             <div className="content">
                 <header>
+                    
                     <h2>Taxonomy</h2>
                     <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
                         Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
@@ -47,8 +48,10 @@ const MyWork = () => {
                         {/* Additional text omitted for brevity */}
                     </p>
                 </header>
+                
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                    
                     <div style={{ flex: '1', marginRight: '20px' }}>
                         <h3>Data Table</h3>
                         <table style={{ width: '100%', borderCollapse: 'collapse' }}>
@@ -97,8 +100,10 @@ const MyWork = () => {
                     </div>
                 </div>
             </div>
+            
             <footer>
-                <a href="#contact" className="button style2 down anchored">More</a>
+                <a href="#one" className="button style2 down anchored">Next</a>
+                <a href="#two" className="button style3 up anchored">Previous</a>
             </footer>
         </section>
     );

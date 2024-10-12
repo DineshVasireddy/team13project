@@ -700,10 +700,10 @@ input, select, textarea {
 			input[type="reset"].down.anchored,
 			.button.down.anchored,
 			button.down.anchored {
-				bottom: 0;
-				border-bottom: 0;
-				border-radius: 3em 3em 0 0;
-				height: 4.5em;
+				bottom: 50px;
+				/* border-bottom: 0; */
+				/* border-radius: 3em 3em 0 0; */
+				/* height: 4.5em; */
 				margin-left: -2.5em;
 			}
 
@@ -714,6 +714,24 @@ input, select, textarea {
 		button.anchored {
 			position: absolute;
 			left: 50%;
+		}
+
+		
+
+		input[type="button"].up,
+		input[type="submit"].up,
+		input[type="reset"].up,
+		.button.up,
+		button.up {
+			width: 5em;
+			height: 5em;
+			line-height: 4.5em;
+			padding: 0;
+			background-image: url("images/dark-arrow.svg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			text-indent: -10em;
+			overflow: hidden;
 		}
 
 		input[type="button"]:hover,
@@ -766,8 +784,28 @@ input, select, textarea {
 				background-image: url("images/arrow.svg");
 			}
 
-/* Form */
+			
 
+			input[type="button"].up,
+			input[type="submit"].up,
+			input[type="reset"].up,
+			.button.up,
+			button.up {
+				/* You can adjust styles as needed */
+				background-image: url("images/up-arrow.svg"); /* Use your arrow image */
+				position: absolute; /* Adjust as needed */
+				top: 2em; /* Position at the top */
+				transform: translateX(-50%);
+				/* border-radius: 0 0 2em 2em; */
+			}
+/* Form */
+	#work h2 {
+		margin-top: 50px;
+	}
+
+	#contact h2 {
+		margin-top: 50px;
+	}
 	form {
 		margin: 0 0 2em 0;
 	}
@@ -2061,8 +2099,10 @@ input, select, textarea {
 			}
 
 			.main.dark .button.style2 {
-				border-color: #ffffff;
+				border-color: #000000;
+				background-color: rgb(22, 123, 141);
 			}
+
 
 				.main.dark .button.style2:hover {
 					background-color: rgba(255, 255, 255, 0.125);
@@ -2076,8 +2116,30 @@ input, select, textarea {
 					background-image: url("images/dark-arrow.svg");
 				}
 
+				.style3 {
+					border: 2px solid black;
+				}
+
+				.style3:hover {
+					background-color: inherit;
+				}
+
 		body.is-touch .main {
 			background-attachment: scroll !important;
+		}
+
+
+		#work {
+			color: black;
+		}
+
+		#work .button.down {
+			border: 2px solid black;
+		}
+
+		#work .button.down:hover {
+			background-color: inherit;
+			background-image: url("images/arrow.svg");
 		}
 
 		@media screen and (max-width: 1920px) {
@@ -2272,20 +2334,35 @@ input, select, textarea {
 
 /* One */
 
+	
+
 	#one {
-		background: url("images/overlay.png"), url("images/one.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("images/Reference.jpg") no-repeat center center / cover, 
+                url("images/intro.jpg") no-repeat center center / cover;
+    background-attachment: fixed;
 	}
 
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("images/Findings.jpg") no-repeat center center / cover, 
+                url("images/intro.jpg") no-repeat center center / cover;
+    background-attachment: fixed;
+	}
+
+	#work {
+		background: url("images/Taxonomy.png") no-repeat center center / cover, 
+                url("images/intro.jpg") no-repeat center center / cover;
+    background-attachment: fixed;
+	}
+
+	#work .content {
+		background-color: white;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		width: 80%;
+		border: 2px solid black;
+		padding: 20px;
 	}
 
 /* Contact */

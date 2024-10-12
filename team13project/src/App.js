@@ -25,7 +25,7 @@ const App = () => {
                         <li><Link to="#" onClick={() => scrollToSection('findings')}>Findings</Link></li>
                         <li><Link to="#" onClick={() => scrollToSection('taxonomy')}>Taxonomy</Link></li>
                         <li><Link to="#" onClick={() => scrollToSection('references')}>References</Link></li>
-                        <li><Link to="#" onClick={() => scrollToSection('contact')}>Contact</Link></li>
+                        <li><Link to="#" onClick={() => scrollToSection('contact')}>Team</Link></li>
                     </ul>
                 </nav>
             </header>

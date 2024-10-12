@@ -26,6 +26,7 @@ const Findings = () => {
                 </p>
             </div>
             <a href="#work" className="button style2 down anchored">Next</a>
+            <a href="#intro" className="button style3 up anchored">Previous</a>
         </section>
     );
 };
