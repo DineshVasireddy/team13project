@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/team13project/static/css/main.f855e6bc.css",
-    "main.js": "/team13project/static/js/main.02aaaac4.js",
+    "main.css": "/team13project/static/css/main.3a1132c3.css",
+    "main.js": "/team13project/static/js/main.9ad48aa6.js",
     "static/js/453.8155a1f1.chunk.js": "/team13project/static/js/453.8155a1f1.chunk.js",
-    "static/media/logo.svg": "/team13project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Pranithapadala.jpg": "/team13project/static/media/Pranithapadala.c9cc81ecbe70e6c1bb7b.jpg",
+    "static/media/Overview.jpg": "/team13project/static/media/Overview.9d77a97a81a14919c941.jpg",
+    "static/media/Karthikmangineni.jpg": "/team13project/static/media/Karthikmangineni.3e40d8252181fc046832.jpg",
+    "static/media/Sushmaveeravalli.jpg": "/team13project/static/media/Sushmaveeravalli.68c0562ec5dd999702d2.jpg",
+    "static/media/Saidineshvasireddy.jpg": "/team13project/static/media/Saidineshvasireddy.0d0ef16f3d358d38cf82.jpg",
+    "static/media/Chiraggupta.jpg": "/team13project/static/media/Chiraggupta.6a02345bfeee2a1b14ac.jpg",
+    "static/media/one.jpg": "/team13project/static/media/one.fc3095d6bd9ebcc453eb.jpg",
+    "static/media/two.jpg": "/team13project/static/media/two.c998a749893caa47835e.jpg",
+    "static/media/intro.jpg": "/team13project/static/media/intro.3f85a1f7d5431ee28607.jpg",
     "index.html": "/team13project/index.html",
-    "main.f855e6bc.css.map": "/team13project/static/css/main.f855e6bc.css.map",
-    "main.02aaaac4.js.map": "/team13project/static/js/main.02aaaac4.js.map",
+    "static/media/arrow.svg": "/team13project/static/media/arrow.d2de47879a517a074276.svg",
+    "static/media/dark-arrow.svg": "/team13project/static/media/dark-arrow.75bb0ee3870f4a5bee0a.svg",
+    "static/media/poptrox-nav.svg": "/team13project/static/media/poptrox-nav.0e8d2b12c09f750dbb5d.svg",
+    "static/media/poptrox-closer.svg": "/team13project/static/media/poptrox-closer.2b19c5c084c0f990c8c5.svg",
+    "main.3a1132c3.css.map": "/team13project/static/css/main.3a1132c3.css.map",
+    "main.9ad48aa6.js.map": "/team13project/static/js/main.9ad48aa6.js.map",
     "453.8155a1f1.chunk.js.map": "/team13project/static/js/453.8155a1f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.02aaaac4.js"
+    "static/css/main.3a1132c3.css",
+    "static/js/main.9ad48aa6.js"
   ]
 }
