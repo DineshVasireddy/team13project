@@ -67,7 +67,7 @@ const Contact = () => {
             <div className="content">
                 <header>
                     <h2>Team</h2>
-                    <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+                    <p>Meet our team who worked on this web page related to the Survey on DNS and BGT Security Solutions.</p>
                 </header>
                 <div className="box">
                     <div className="developer-cards">
