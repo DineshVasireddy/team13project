@@ -23,7 +23,7 @@ const App = () => {
     return (
         <Router>
             <header id="header">
-                <h1>Survey on DNS and BGT Security Solutions</h1>
+                <h1>Survey on DNS and BGP Security Solutions</h1>
                 <nav>
                     <ul>
                     <li><Link to="#" onClick={() => scrollToSection('overview', 'intro-content')}>Overview</Link></li>
