@@ -2,9 +2,9 @@ import React from 'react';
 
 const References = () => {
     return (
-        <section id="one" className="main style2 right dark fullscreen">
+        <section id="one" className="main style3 right dark fullscreen">
             <div className="overlay"></div> 
-            <div className="content box style2">
+            <div className="content box style2" id='one-content'>
                 <header>
                     <h2>References</h2>
                 </header>
@@ -29,10 +29,13 @@ const References = () => {
                     <li><a href='https://www.sciencedirect.com/science/article/abs/pii/S014036641731068X' target='/18'>The state of affairs in BGP security: A survey of attacks and defenses</a></li>
                     <li><a href='https://web.cs.ucla.edu/~lixia/papers/03TPDS.pdf' target='/19'>Protecting BGP Routes to Top-Level DNS Servers</a></li>
                     <li><a href='https://crypto.ku.edu.tr/wp-content/uploads/2020/01/blockchain-backbone.pdf' target='/20'>Improving PKI, BGP, and DNS Using Blockchain: A Systematic Review</a></li>
+                    <li><a href='https://aunetwork.org/the-role-of-dns-security-in-mitigating-cyber-threats-an-analysis-of-recent-attacks-and-recommended-strategies/f' target='/21'>The role of DNS security in mitigating cyber threats: An analysis of recent attacks and recommended strategies</a></li>
+                    <li><a href='https://ieeexplore.ieee.org/document/9153432' target='/22'>The Impact of DNS Insecurity on Time</a></li>
+                    <li><a href='https://ieeexplore.ieee.org/document/8722413/references#references' target='/23'>Analysis of Border Gateway Protocol (BGP) with Improvement in Byzantine Robustness</a></li>
                 </ul>
             </div>
             <a href="#work" className="button style3 up anchored">Previous</a>
-            <a href="#contact" className="button style2 down anchored">Next</a>
+            <a href="#conclusion" className="button style2 down anchored">Next</a>
         </section>
     );
 };

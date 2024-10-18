@@ -5,12 +5,17 @@ import References from './components/References';
 import Findings from './components/Findings';
 import Taxonomy from './components/Taxonomy';
 import Contact from './components/Contact';
+import Conclusion from './components/Conclusion'
 import './main.css'; // Make sure to add your styles
 
 const App = () => {
-    const scrollToSection = (id) => {
+    const scrollToSection = (id, contentId) => {
         const section = document.getElementById(id);
-        if (section) {
+        const content = section ? section.querySelector(`#${contentId}`) : null;
+
+        if (content) {
+            content.scrollIntoView({ behavior: 'smooth' });
+        } else if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
         }
     };
@@ -21,11 +26,13 @@ const App = () => {
                 <h1>Survey on DNS and BGT Security Solutions</h1>
                 <nav>
                     <ul>
-                        <li><Link to="#" onClick={() => scrollToSection('overview')}>Overview</Link></li>
-                        <li><Link to="#" onClick={() => scrollToSection('findings')}>Findings</Link></li>
-                        <li><Link to="#" onClick={() => scrollToSection('taxonomy')}>Taxonomy</Link></li>
-                        <li><Link to="#" onClick={() => scrollToSection('references')}>References</Link></li>
-                        <li><Link to="#" onClick={() => scrollToSection('contact')}>Team</Link></li>
+                    <li><Link to="#" onClick={() => scrollToSection('overview', 'intro-content')}>Overview</Link></li>
+                        <li><Link to="#" onClick={() => scrollToSection('findings', 'two-content')}>Findings</Link></li>
+                        <li><Link to="#" onClick={() => scrollToSection('taxonomy', 'work-content')}>Taxonomy</Link></li>
+                        <li><Link to="#" onClick={() => scrollToSection('references', 'one-content')}>References</Link></li>
+                        <li><Link to="#" onClick={() => scrollToSection('conclusion', 'conclusion-content')}>Conclusion</Link></li>
+                        <li><Link to="#" onClick={() => scrollToSection('contact', 'contact-content')}>Team</Link></li>
+                        
                     </ul>
                 </nav>
             </header>
@@ -42,9 +49,13 @@ const App = () => {
                 <section id="references">
                     <References />
                 </section>
+                <section id="conclusion">
+                    <Conclusion />
+                </section>
                 <section id="contact">
                     <Contact />
                 </section>
+                
             </main>
         </Router>
     );

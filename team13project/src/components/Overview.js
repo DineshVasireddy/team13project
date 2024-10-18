@@ -3,39 +3,34 @@ import React from 'react';
 const Overview = () => {
     return (
         <section id="intro" className="main style1 dark fullscreen">
-            <div className="overlay"></div> 
-            <div className="content">
+            <div className="overlay"></div>
+            <div className="content" id='intro-content'>
                 <header>
                     <h2>Overview</h2>
                 </header>
-                <h3>Problem Statement</h3>
+                
+                <h3>Introduction to DNS and BGP</h3>
+                <h4>What is DNS?</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi auctor ipsum magna, in ullamcorper tortor malesuada id. Ut vel leo vel purus euismod accumsan. Duis eget orci condimentum, porta purus nec, vehicula quam. Sed nec iaculis dui. Sed auctor lacinia leo sed interdum. Mauris rhoncus facilisis ligula, a eleifend leo tincidunt et. Curabitur tristique eleifend nisi, vestibulum rutrum felis dapibus sit amet. Aliquam non purus et orci vulputate convallis sit amet et enim. Maecenas metus nulla, blandit id suscipit id, viverra at mi. Vestibulum accumsan eu erat vitae tempus.
+                    The Domain Name System (DNS) translates human-readable domain names into IP addresses, allowing users to access websites and services easily.
+                </p>
+                <h4>What is BGP?</h4>
+                <p>
+                    The Border Gateway Protocol (BGP) is the protocol used to exchange routing information between different Autonomous Systems (AS) on the Internet, ensuring data packets find the best path across networks.
                 </p>
 
-                <h3>Key Challenges</h3>
-                <ul>
-                    <li>Challenge 1: Lorem ipsum dolor sit amet.</li>
-                    <li>Challenge 2: Morbi auctor ipsum magna.</li>
-                    <li>Challenge 3: Ut vel leo vel purus euismod.</li>
-                </ul>
-
-                <h3>Recent Trends and Advancements</h3>
-                <ul>
-                    <li>Trend 1: Cras blandit efficitur est.</li>
-                    <li>Trend 2: Mauris cursus arcu leo.</li>
-                    <li>Trend 3: Vivamus egestas urna non massa ultricies dignissim.</li>
-                </ul>
-
-                <h3>Future Research Directions</h3>
-                <ul>
-                    <li>Direction 1: Nulla eu quam eget est iaculis tincidunt.</li>
-                    <li>Direction 2: Proin est elit, finibus sit amet nisi id.</li>
-                    <li>Direction 3: Integer pharetra nisl vitae erat iaculis.</li>
-                </ul>
+                <h3>Importance of Security Solutions</h3>
+                <h4>Current Landscape</h4>
+                <p>
+                    The Internet relies heavily on DNS and BGP for its functionality, making them prime targets for attackers. Security breaches can lead to severe disruptions, data theft, and loss of trust in online services.
+                </p>
+                <h4>Growing Threats</h4>
+                <p>
+                    As more businesses and individuals depend on the Internet, the risks associated with unsecured DNS and BGP protocols increase, necessitating effective security measures.
+                </p>
 
                 <footer>
-                    <a href="#two" className="button style2 down">More</a>
+                    <a href="#two-content" className="button style2 down">More</a>
                 </footer>
             </div>
         </section>

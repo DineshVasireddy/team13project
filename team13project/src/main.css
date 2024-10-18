@@ -30,6 +30,12 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+th {
+	font-size: 20px;
+}
+td {
+	font-size: 16px;
+}
 
 ol, ul {
 	list-style: none;
@@ -802,20 +808,25 @@ input, select, textarea {
 			input[type="reset"].up,
 			.button.up,
 			button.up {
-				/* You can adjust styles as needed */
-				background-image: url("images/up-arrow.svg"); /* Use your arrow image */
-				position: absolute; /* Adjust as needed */
-				top: 2em; /* Position at the top */
+				
+				background-image: url("images/up-arrow.svg"); 
+				position: absolute; 
+				top: 2em; 
 				transform: translateX(-50%);
-				/* border-radius: 0 0 2em 2em; */
+				
 			}
 /* Form */
+	
 	#work h2 {
 		margin-top: 50px;
 	}
 
+	#contact img {
+		margin-top: 20px;
+	}
+
 	#contact h2 {
-		margin-top: 50px;
+		margin-top: 10px;
 	}
 	form {
 		margin: 0 0 2em 0;
@@ -2347,6 +2358,10 @@ input, select, textarea {
     padding: 20px; /* Add padding for better spacing */
 }
 
+#intro .content {
+    margin-top: 0%;
+}
+
 #intro {
     background: url("images/Overview.jpg") no-repeat center center / cover, 
                 url("images/intro.jpg") no-repeat center center / cover;
@@ -2381,13 +2396,14 @@ input, select, textarea {
 		background: url("images/Team.jpg") no-repeat center center / cover, 
                 url("images/intro.jpg") no-repeat center center / cover;
     background-attachment: fixed;
+
 	}
 
 	#work .content {
 		background-color: white;
 		margin-top: 10%;
 		margin-bottom: 10%;
-		width: 80%;
+		width: 100%;
 		border: 2px solid black;
 		padding: 20px;
 	}
@@ -2398,20 +2414,84 @@ input, select, textarea {
 		height: 100%;
 		border: 2px solid black;
 		padding: 20px;
+		margin-bottom: 15%;
+		margin-top: 15%;
 
 	}
 
 
 	#two .content {
-		position: relative;
+		/* position: relative; */
 		z-index: 2; /* Ensure content is above the overlay */
 		color: black; /* Change text color for better contrast */
-		margin-top: 10%;
-		margin-bottom: 10%;
+		margin-top: 15%;
+		margin-bottom: 15%;
+		width: 100%;
+		
 	}
 	
 	#two .content p{
 		padding: 20px;
+	}
+
+	table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	
+	th, td {
+		padding: 10px;
+		border: 1px solid #ddd;
+		max-width: 200px; /* Example max-width */
+		word-wrap: break-word; /* Break long words */
+	}
+	
+	@media (max-width: 1200px) and (min-width: 700px ){
+		th, td {
+			font-size: 0.4em; /* Smaller text on small screens */
+		}
+		#work #needbigscreen {
+			visibility: visible !important; 
+		}
+	}
+
+	@media (max-width: 700px) and (min-width: 520px) {
+		th, td {
+			font-size: 0.2em; /* Smaller text on small screens */
+		}
+		#work #needbigscreen {
+			visibility: visible !important; 
+		}
+		
+	}
+
+
+	@media (max-width: 520px) {
+		th, td {
+			font-size: 0em; /* Smaller text on small screens */
+		}
+		#work #needbigscreen {
+			visibility: visible !important; 
+			
+		}
+		#work #needbigscreen h1:before{
+			text-indent:0;
+			content:'Table content cannot be shown in this resolution (Need Big Screen Device)';
+			float: left;
+		}
+		table {
+			visibility: hidden;
+			margin: 0;
+			padding: 0;
+			height: 0;
+			width: 0;
+			position: absolute;
+		}
+		#work #needbigscreen h1 {
+			text-indent:-9999px;
+		  }
+
+		
 	}
 	
 	#two .content h2{
@@ -2422,9 +2502,12 @@ input, select, textarea {
 		position: relative;
 		z-index: 2; /* Ensure content is above the overlay */
 		color: black; /* Change text color for better contrast */
-		margin-top: 10%;
-		margin-bottom: 10%;
+		margin-top: 15%;
+		margin-bottom: 15%;
+		width: 100%;
 	}
+
+	
 	
 	#one .content p{
 		padding: 20px;
@@ -2438,8 +2521,8 @@ input, select, textarea {
 		position: relative;
 		z-index: 2; /* Ensure content is above the overlay */
 		color: black; /* Change text color for better contrast */
-		margin-top: 10%;
-		margin-bottom: 10%;
+		margin-top: 15%;
+		margin-bottom: 15%;
 	}
 	
 	#work .content p{
@@ -2468,6 +2551,27 @@ input, select, textarea {
 		color: black; /* Change text color for better contrast */
 		margin-top: 10%;
 		margin-bottom: 10%;
+	}
+	#conclusion .button.style2{
+		border-color: #000000;
+		background-color: rgb(40, 148, 167);
+		background-image: url("images/dark-arrow.svg");
+	}
+
+	#conclusion .button.style2:hover{
+		
+		background-color: inherit;
+		background-image: url("images/arrow.svg");
+		
+	}
+	
+
+	#conclusion .content {
+		position: relative;
+		z-index: 2; /* Ensure content is above the overlay */
+		color: black; /* Change text color for better contrast */
+		margin-top: 15%;
+		margin-bottom: 15%;
 	}
 	
 	#contact .content p{
@@ -2574,7 +2678,7 @@ input, select, textarea {
             border-radius: 5px;
             position: absolute;
             max-width: 1000px; 
-            width: 50%;       
+            width: 100%;       
         }
 
 		.modal-content img {
@@ -2590,4 +2694,27 @@ input, select, textarea {
             cursor: pointer;
         }
 
+		p {
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
 		
+
+		.modal-content p {
+			margin: 5px;
+		}
+
+		
+		
+		.contact-links img {
+			margin-bottom: -40px;
+			padding: 0;
+			width: 50px;
+			height: 50px;
+			padding: 5px;
+		}
+
+		.modal-content a {
+			color: beige;
+		}
+
