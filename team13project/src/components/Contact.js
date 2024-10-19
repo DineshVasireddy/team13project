@@ -35,11 +35,11 @@ const developers = [
         role: 'Website Developer',
         bio: '-',
         papersWorked: [
-            <a href="https://ieeexplore.ieee.org/document/5473881">Securing BGP — A Literature Survey</a>,
-            <a href="https://i.blackhat.com/BH-US-23/Presentations/US-23-dosSantos-Route-to-Bugs-Analyzing-the-Security-of-BGP.pdf">BGP Vulnerability Presentations and Analysis</a>,
-            <a href="https://arxiv.org/pdf/2105.02346">Estimating the Impact of BGP Prefix Hijacking</a>,
-            <a href="https://labs.apnic.net/index.php/2021/08/03/a-survey-on-securing-inter-domain-routing-part-2-approaches-to-securing-bgp/">A Survey on Securing Inter-Domain Routing Part 2 – Approaches to Securing BGP</a>,
-            <a href="https://ieeexplore.ieee.org/document/8722413/references#references">Analysis of Border Gateway Protocol (BGP) with Improvement in Byzantine Robustness </a>
+            <a href="https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2011-15.pdf">:Improving Internet Infrastructure: BGP Predictability and Cloud DNS Performance</a>,
+            <a href="https://dl.acm.org/doi/10.1145/2663716.2663731">DNSSEC and Its Potential for DDoS Attacks</a>,
+            <a href="https://ieeexplore.ieee.org/document/10343534">Blockchain-Based DNS to Mitigate DDoS Attacks</a>,
+            <a href="https://inria.hal.science/hal-01806063/document">A Blockchain-Based Architecture for Collaborative DDoS Mitigation with Smart Contracts</a>,
+            <a href="https://arxiv.org/pdf/2410.02254v1">MTDNS: Moving Target Defense for Resilient DNS Infrastructure</a>
         ],
         contact: {
             github: '-', 
@@ -56,11 +56,11 @@ const developers = [
         role: 'Content Validator',
         bio: '-',
         papersWorked: [
-            <a href="https://ieeexplore.ieee.org/document/5473881">Securing BGP — A Literature Survey</a>,
-            <a href="https://i.blackhat.com/BH-US-23/Presentations/US-23-dosSantos-Route-to-Bugs-Analyzing-the-Security-of-BGP.pdf">BGP Vulnerability Presentations and Analysis</a>,
-            <a href="https://arxiv.org/pdf/2105.02346">Estimating the Impact of BGP Prefix Hijacking</a>,
-            <a href="https://labs.apnic.net/index.php/2021/08/03/a-survey-on-securing-inter-domain-routing-part-2-approaches-to-securing-bgp/">A Survey on Securing Inter-Domain Routing Part 2 – Approaches to Securing BGP</a>,
-            <a href="https://ieeexplore.ieee.org/document/8722413/references#references">Analysis of Border Gateway Protocol (BGP) with Improvement in Byzantine Robustness </a>
+            <a href="https://arxiv.org/abs/2201.00900">A Survey on DNS Encryption: Current Development, Malware Misuse, and Inference Techniques</a>,
+            <a href="https://ieeexplore.ieee.org/document/9065354">A Survey on DNS Security Issues and Mitigation Techniques</a>,
+            <a href="https://ieeexplore.ieee.org/document/7866194">Survey on Domain Name System Security</a>,
+            <a href="https://www.semanticscholar.org/paper/An-Inter-Domain-Attack-Mitigating-Solution-Akin-B%C3%BCk/3519c03706b0a35116692c6fe76695686fc93245#citing-papers">An Inter-Domain Attack Mitigating Solution</a>,
+            <a href="https://www.oecd-ilibrary.org/docserver/285d7875-en.pdf?expires=1729043721&id=id&accname=guest&checksum=D6DF22AEDBC7934ECF4BFF3F3013E9D1">Security of Domain Name System (DNS).</a>
         ],
         contact: {
             github: '-', 
@@ -77,11 +77,11 @@ const developers = [
         role: 'Content Validator',
         bio: '-',
         papersWorked: [
-            <a href="https://ieeexplore.ieee.org/document/5473881">Securing BGP — A Literature Survey</a>,
-            <a href="https://i.blackhat.com/BH-US-23/Presentations/US-23-dosSantos-Route-to-Bugs-Analyzing-the-Security-of-BGP.pdf">BGP Vulnerability Presentations and Analysis</a>,
-            <a href="https://arxiv.org/pdf/2105.02346">Estimating the Impact of BGP Prefix Hijacking</a>,
-            <a href="https://labs.apnic.net/index.php/2021/08/03/a-survey-on-securing-inter-domain-routing-part-2-approaches-to-securing-bgp/">A Survey on Securing Inter-Domain Routing Part 2 – Approaches to Securing BGP</a>,
-            <a href="https://ieeexplore.ieee.org/document/8722413/references#references">Analysis of Border Gateway Protocol (BGP) with Improvement in Byzantine Robustness </a>
+            <a href="https://www.cs.princeton.edu/~jrex/papers/pieee09.pdf">A Survey of BGP Security Issues and Solutions</a>,
+            <a href="https://dl.acm.org/doi/10.5555/850929.851984">Protecting BGP Routes to Top-Level DNS Servers</a>,
+            <a href="https://ieeexplore.ieee.org/document/6595458">Securing BGP Against Spoofing Attacks</a>,
+            <a href="https://ieeexplore.ieee.org/document/8594708">BGP with BGPsec: Attacks and Countermeasures</a>,
+            <a href="https://ieeexplore.ieee.org/document/9153432">The Impact of DNS Insecurity on Time</a>
         ],
         contact: {
             github: '-', 
@@ -98,11 +98,11 @@ const developers = [
         role: 'Reporting and Delivery Lead',
         bio: '-',
         papersWorked: [
-            <a href="https://ieeexplore.ieee.org/document/5473881">Securing BGP — A Literature Survey</a>,
-            <a href="https://i.blackhat.com/BH-US-23/Presentations/US-23-dosSantos-Route-to-Bugs-Analyzing-the-Security-of-BGP.pdf">BGP Vulnerability Presentations and Analysis</a>,
-            <a href="https://arxiv.org/pdf/2105.02346">Estimating the Impact of BGP Prefix Hijacking</a>,
-            <a href="https://labs.apnic.net/index.php/2021/08/03/a-survey-on-securing-inter-domain-routing-part-2-approaches-to-securing-bgp/">A Survey on Securing Inter-Domain Routing Part 2 – Approaches to Securing BGP</a>,
-            <a href="https://ieeexplore.ieee.org/document/8722413/references#references">Analysis of Border Gateway Protocol (BGP) with Improvement in Byzantine Robustness </a>
+            <a href="https://www.f5.com/labs/articles/cisotociso/bgp-dns-and-the-fragility-of-our-critical-systems">BGP, DNS, and the Fragility of our Critical Systems</a>,
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S014036641731068X">The state of affairs in BGP security: A survey of attacks and defenses</a>,
+            <a href="https://web.cs.ucla.edu/~lixia/papers/03TPDS.pdf">Protecting BGP Routes to Top-Level DNS Servers</a>,
+            <a href="https://crypto.ku.edu.tr/wp-content/uploads/2020/01/blockchain-backbone.pdf">Improvement of PKI, BGP, and DNS Using Blockchain: A Systematic Review</a>,
+            <a href="https://aunetwork.org/the-role-of-dns-security-in-mitigating-cyber-threats-an-analysis-of-recent-attacks-and-recommended-strategies/">The role of DNS security in mitigating cyber threats: An analysis of recent attacks and recommended strategies</a>
         ],
         contact: {
             github: '-', 
@@ -148,15 +148,13 @@ const Contact = () => {
                             </div>
                         ))}
                     </div>
-
                     {isModalOpen && modalData && (
-                        <div className="modal">
+                        <div className={`modal ${isModalOpen ? 'open' : ''}`}>
                             <div className="modal-content">
                                 <span className="close" onClick={closeModal}>&times;</span>
                                 <img src={modalData.image} alt={modalData.name} className="modal-profile-pic" />
                                 <h2>{modalData.name}</h2>
                                 <div className="contact-links">
-                                    
                                     {modalData.contact.github && (
                                         <a href={modalData.contact.github} target="_blank" rel="noopener noreferrer">
                                             <img src={modalData.contact.githubIcon} alt="GitHub" className="contact-icon" />
@@ -179,8 +177,6 @@ const Contact = () => {
                                         </span>
                                     ))}
                                 </p>
-
-                                
                             </div>
                         </div>
                     )}

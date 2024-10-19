@@ -2658,41 +2658,57 @@ input, select, textarea {
         }
         
         .modal {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: fixed;
-			
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.7);
-        }
-        
-        .modal-content {
-            background: white;
-			background-color: rgb(103, 170, 179);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(0, 0, 0, 0.7);
+			opacity: 0; 
+			transform: scale(2); /* Slightly scaled up */
+			transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for fade and scale */
+			pointer-events: none; /* Prevent interaction when hidden */
+		}
+		
+		.modal.open {
+			opacity: 1; /* Fully visible */
+			transform: scale(1); /* Scale down to original size */
+			pointer-events: auto; /* Enable interaction when visible */
+		}
+		
+		.modal-content {
+			background: rgb(103, 170, 179);
 			color: white;
-            padding: 10px;
-            border-radius: 5px;
-            position: absolute;
-            max-width: 1000px; 
-            width: 100%;       
-        }
-
+			padding: 20px;
+			border-radius: 8px;
+			position: relative;
+			max-width: 1100px; 
+			width: 100%;
+			transform: translateY(-50px); /* Start slightly above */
+			transition: transform 0.10s ease; /* Transition for sliding effect */
+		}
+		
+		.modal.open .modal-content {
+			transform: translateY(0); /* Slide down to original position */
+		}
+		
 		.modal-content img {
 			width: 100px;
 			height: 100px;
 			border-radius: 50%;
+			margin-bottom: 15px; /* Spacing below image */
 		}
-        
-        .close {
-            position: absolute;
-            top: 10px;
-            right: 15px;
-            cursor: pointer;
-        }
+		
+		.close {
+			position: absolute;
+			top: 10px;
+			right: 15px;
+			cursor: pointer;
+			font-size: 20px; /* Increase font size for visibility */
+		}
 
 		p {
 			overflow: hidden;

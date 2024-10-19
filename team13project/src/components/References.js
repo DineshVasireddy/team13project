@@ -32,6 +32,8 @@ const References = () => {
                     <li><a href='https://aunetwork.org/the-role-of-dns-security-in-mitigating-cyber-threats-an-analysis-of-recent-attacks-and-recommended-strategies/f' target='/21'>The role of DNS security in mitigating cyber threats: An analysis of recent attacks and recommended strategies</a></li>
                     <li><a href='https://ieeexplore.ieee.org/document/9153432' target='/22'>The Impact of DNS Insecurity on Time</a></li>
                     <li><a href='https://ieeexplore.ieee.org/document/8722413/references#references' target='/23'>Analysis of Border Gateway Protocol (BGP) with Improvement in Byzantine Robustness</a></li>
+                    <li><a href='https://arxiv.org/pdf/2410.02254v1' target='/24'>MTDNS: Moving Target Defense for Resilient DNS Infrastructure</a></li>
+                    <li><a href='https://www.semanticscholar.org/paper/An-Inter-Domain-Attack-Mitigating-Solution-Akin-B%C3%BCk/3519c03706b0a35116692c6fe76695686fc93245#citing-papers' target='/25'>An Inter-Domain Attack Mitigating Solution</a></li>
                 </ul>
             </div>
             <a href="#work" className="button style3 up anchored">Previous</a>

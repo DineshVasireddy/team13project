@@ -352,7 +352,7 @@ const Taxonomy = () => {
                             <Line data={data} options={options} />
                         </div>
                         <div style={{ flex: '1', marginRight: '20px', height: '400px', marginBottom: '30px', marginTop: '50px' }}>
-                            <h3>Top Most DNS Providers Usage (%)</h3>
+                            <h3><a href='https://medium.com/@nykolas.z/dns-market-share-analysis-identifying-the-most-popular-dns-providers-80fefb2cfd05' style={{textDecoration: 'underline', color: 'blue'}}>Top Most DNS Providers Usage (%)</a></h3>
                             <Line data={dnsProvidersData} options={optionsDNS} />
                         </div>
                 </div>

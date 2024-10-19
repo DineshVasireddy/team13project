@@ -8,6 +8,8 @@ import Contact from './components/Contact';
 import Conclusion from './components/Conclusion'
 import './main.css'; // Make sure to add your styles
 
+
+
 const App = () => {
     const scrollToSection = (id, contentId) => {
         const section = document.getElementById(id);
