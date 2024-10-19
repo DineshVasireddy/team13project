@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/team13project/static/css/main.d1a0f6e1.css",
-    "main.js": "/team13project/static/js/main.46d5065b.js",
+    "main.css": "/team13project/static/css/main.437b61cc.css",
+    "main.js": "/team13project/static/js/main.0655bd3e.js",
     "static/js/453.8155a1f1.chunk.js": "/team13project/static/js/453.8155a1f1.chunk.js",
     "static/media/Findings.jpg": "/team13project/static/media/Findings.2d1d7caeebdc3b82f1aa.jpg",
     "static/media/Team.jpg": "/team13project/static/media/Team.4f92fe85563baf9f34c3.jpg",
@@ -20,12 +20,12 @@
     "static/media/dark-arrow.svg": "/team13project/static/media/dark-arrow.75bb0ee3870f4a5bee0a.svg",
     "static/media/poptrox-nav.svg": "/team13project/static/media/poptrox-nav.0e8d2b12c09f750dbb5d.svg",
     "static/media/poptrox-closer.svg": "/team13project/static/media/poptrox-closer.2b19c5c084c0f990c8c5.svg",
-    "main.d1a0f6e1.css.map": "/team13project/static/css/main.d1a0f6e1.css.map",
-    "main.46d5065b.js.map": "/team13project/static/js/main.46d5065b.js.map",
+    "main.437b61cc.css.map": "/team13project/static/css/main.437b61cc.css.map",
+    "main.0655bd3e.js.map": "/team13project/static/js/main.0655bd3e.js.map",
     "453.8155a1f1.chunk.js.map": "/team13project/static/js/453.8155a1f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1a0f6e1.css",
-    "static/js/main.46d5065b.js"
+    "static/css/main.437b61cc.css",
+    "static/js/main.0655bd3e.js"
   ]
 }
