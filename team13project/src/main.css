@@ -1967,9 +1967,33 @@ input, select, textarea {
 						font-size: 1em;
 					}
 
-				#header nav {
-					display: none;
+				
+
+				#header nav button{
+					font-size: 10px;
+					top: -6px;
+
 				}
+
+				.dropdown-menu a {
+					font-size: 10px;
+				}
+
+				.dropdown-menu {
+					top: 40px;
+					left: -18px;
+					width: 100px !important;
+				}
+
+				.dropdown-menu a{
+					width: 50px !important; 
+				}
+
+				.dropdown-menu li {
+					padding: -10px;
+					margin: -10px;
+				}
+
 
 				
 
@@ -2733,4 +2757,69 @@ input, select, textarea {
 		.modal-content a {
 			color: beige;
 		}
+	
+/* Example styles for mobile responsiveness */
+@media (max-width: 865px) {
+	.dropdown {
+		visibility: visible !important;
+		position: absolute !important;
+		right: 50px;
+		top: -1px;
+		
+	}
+    .nav-links {
+        display: none; /* Hide the regular nav links on small screens */
+    }
+
+
+    /* .dropdown-toggle {
+        background: none;
+        border: none;
+        font-size: 1.2em;
+        cursor: pointer;
+    } */
+
+    .dropdown-menu {
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        z-index: 10;
+		right: -35px;
+    }
+
+	.dropdown-menu a{
+        width: 110px;
+		margin: auto;
+    }
+
+	.dropdown-menu li{
+        text-align: center;
+    }
+
+    .dropdown-menu li {
+        padding: 10px;
+    }
+
+    .dropdown-menu li a {
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 560px) {
+	.dropdown {
+		visibility: hidden !important;
+	}
+    .nav-links {
+        display: none; /* Hide the regular nav links on small screens */
+    }
+
+
+}
+
+
+
 
