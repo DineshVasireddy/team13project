@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/team13project/static/css/main.90da7bb9.css",
-    "main.js": "/team13project/static/js/main.4c506a93.js",
+    "main.css": "/team13project/static/css/main.b5cc95bc.css",
+    "main.js": "/team13project/static/js/main.530b31a8.js",
     "static/js/453.8155a1f1.chunk.js": "/team13project/static/js/453.8155a1f1.chunk.js",
+    "static/media/conclusion.jpg": "/team13project/static/media/conclusion.97e7a3bc3e3194233e40.jpg",
     "static/media/Findings.jpg": "/team13project/static/media/Findings.2d1d7caeebdc3b82f1aa.jpg",
     "static/media/Team.jpg": "/team13project/static/media/Team.4f92fe85563baf9f34c3.jpg",
     "static/media/Reference.jpg": "/team13project/static/media/Reference.5d881d4ea400a9c914ca.jpg",
@@ -14,18 +15,19 @@
     "static/media/Saidineshvasireddy.jpg": "/team13project/static/media/Saidineshvasireddy.0d0ef16f3d358d38cf82.jpg",
     "static/media/Chiraggupta.jpg": "/team13project/static/media/Chiraggupta.6a02345bfeee2a1b14ac.jpg",
     "static/media/intro.jpg": "/team13project/static/media/intro.3f85a1f7d5431ee28607.jpg",
+    "static/media/dropdown.png": "/team13project/static/media/dropdown.2064cb88304aff3d0761.png",
     "index.html": "/team13project/index.html",
     "static/media/arrow.svg": "/team13project/static/media/arrow.d2de47879a517a074276.svg",
     "static/media/up-arrow.svg": "/team13project/static/media/up-arrow.93812e15bb5761ef51c0.svg",
     "static/media/dark-arrow.svg": "/team13project/static/media/dark-arrow.75bb0ee3870f4a5bee0a.svg",
     "static/media/poptrox-nav.svg": "/team13project/static/media/poptrox-nav.0e8d2b12c09f750dbb5d.svg",
     "static/media/poptrox-closer.svg": "/team13project/static/media/poptrox-closer.2b19c5c084c0f990c8c5.svg",
-    "main.90da7bb9.css.map": "/team13project/static/css/main.90da7bb9.css.map",
-    "main.4c506a93.js.map": "/team13project/static/js/main.4c506a93.js.map",
+    "main.b5cc95bc.css.map": "/team13project/static/css/main.b5cc95bc.css.map",
+    "main.530b31a8.js.map": "/team13project/static/js/main.530b31a8.js.map",
     "453.8155a1f1.chunk.js.map": "/team13project/static/js/453.8155a1f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90da7bb9.css",
-    "static/js/main.4c506a93.js"
+    "static/css/main.b5cc95bc.css",
+    "static/js/main.530b31a8.js"
   ]
 }
