@@ -2416,8 +2416,13 @@ input, select, textarea {
 		position: relative;
 		z-index: 2; /* Ensure content is above the overlay */
 		color: white; /* Change text color for better contrast */
-		padding: 200px; /* Add padding for better spacing */
 		width: 100%;
+		
+	}
+
+	#conclusion .content p{
+		width: 80%;
+		margin: auto;
 		
 	}
 
