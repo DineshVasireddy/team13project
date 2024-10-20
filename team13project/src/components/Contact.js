@@ -42,8 +42,8 @@ const developers = [
             <a href="https://arxiv.org/pdf/2410.02254v1">MTDNS: Moving Target Defense for Resilient DNS Infrastructure</a>
         ],
         contact: {
-            github: '-', 
-            linkedin: '-', 
+            github: 'https://github.com/Chirag2x', 
+            linkedin: 'https://www.linkedin.com/in/chirag-gupta-3911961b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', 
             githubIcon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png',
             linkedinIcon: 'https://imgs.search.brave.com/MspQtFIstYWh9I8XCeYe5l4nU74LF8jy4FSQ1wvWJAU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS81/MTIvMTc0LzE3NDg1/Ny5wbmc'
         }
@@ -63,8 +63,8 @@ const developers = [
             <a href="https://www.oecd-ilibrary.org/docserver/285d7875-en.pdf?expires=1729043721&id=id&accname=guest&checksum=D6DF22AEDBC7934ECF4BFF3F3013E9D1">Security of Domain Name System (DNS).</a>
         ],
         contact: {
-            github: '-', 
-            linkedin: '-', 
+            github: 'https://github.com/SushmaVeeravalli8', 
+            linkedin: 'https://www.linkedin.com/in/sushma-lisa-veeravalli-69341b14b/', 
             githubIcon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png',
             linkedinIcon: 'https://imgs.search.brave.com/MspQtFIstYWh9I8XCeYe5l4nU74LF8jy4FSQ1wvWJAU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS81/MTIvMTc0LzE3NDg1/Ny5wbmc'
         }
@@ -84,8 +84,8 @@ const developers = [
             <a href="https://ieeexplore.ieee.org/document/9153432">The Impact of DNS Insecurity on Time</a>
         ],
         contact: {
-            github: '-', 
-            linkedin: '-', 
+            github: 'https://github.com/rcAsironman', 
+            linkedin: 'https://www.linkedin.com/in/karthik-mangineni-086a49234', 
             githubIcon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png',
             linkedinIcon: 'https://imgs.search.brave.com/MspQtFIstYWh9I8XCeYe5l4nU74LF8jy4FSQ1wvWJAU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS81/MTIvMTc0LzE3NDg1/Ny5wbmc'
         }
@@ -105,8 +105,8 @@ const developers = [
             <a href="https://aunetwork.org/the-role-of-dns-security-in-mitigating-cyber-threats-an-analysis-of-recent-attacks-and-recommended-strategies/">The role of DNS security in mitigating cyber threats: An analysis of recent attacks and recommended strategies</a>
         ],
         contact: {
-            github: '-', 
-            linkedin: '-', 
+            github: 'https://github.com/pranithapadala', 
+            linkedin: 'http://linkedin.com/in/pranitha-padala-458539170', 
             githubIcon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png',
             linkedinIcon: 'https://imgs.search.brave.com/MspQtFIstYWh9I8XCeYe5l4nU74LF8jy4FSQ1wvWJAU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZs/YXRpY29uLmNvbS81/MTIvMTc0LzE3NDg1/Ny5wbmc'
         }

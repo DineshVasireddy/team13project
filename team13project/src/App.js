@@ -17,23 +17,32 @@ const App = () => {
 
         if (content) {
             content.scrollIntoView({ behavior: 'smooth' });
+            toggleDropdown();
         } else if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
+            toggleDropdown();
         }
     };
 
     const toggleDropdown = () => {
         setDropdownOpen(!isDropdownOpen);
     };
+    const closeDropdown = () => {
+        if (isDropdownOpen){
+            setDropdownOpen(!isDropdownOpen);
+        }
+        
+    };
+    
 
     return (
         <Router>
-            <header id="header">
+            <header id="header" onClick={closeDropdown}>
                 <h1>Survey on DNS and BGP Security Solutions</h1>
                 <nav>
                     <div className="dropdown" style={{position: 'absolute', visibility:'hidden'}}>
-                        <button className="dropdown-toggle" onClick={toggleDropdown}>
-                            Menu
+                        <button className="dropdown-toggle" style={{background: 'inherit'}} onClick={toggleDropdown}>
+                            List of Contents
                         </button>
                         {isDropdownOpen && (
                             <ul className="dropdown-menu">
@@ -56,7 +65,7 @@ const App = () => {
                     </ul>
                 </nav>
             </header>
-            <main>
+            <main onClick={closeDropdown}>
                 <section id="overview">
                     <Overview />
                 </section>

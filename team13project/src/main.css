@@ -1971,7 +1971,8 @@ input, select, textarea {
 
 				#header nav button{
 					font-size: 10px;
-					top: -6px;
+					top: -5px;
+					left: 50%;
 
 				}
 
@@ -1981,13 +1982,15 @@ input, select, textarea {
 
 				.dropdown-menu {
 					top: 40px;
-					left: -18px;
+					left: 65%;
 					width: 100px !important;
 				}
 
 				.dropdown-menu a{
 					width: 50px !important; 
 				}
+
+				
 
 				.dropdown-menu li {
 					padding: -10px;
@@ -2402,6 +2405,28 @@ input, select, textarea {
     background-attachment: fixed;
 	}
 
+/* conclusion */
+	#conclusion {
+	background: url("images/conclusion.jpg") no-repeat center center / cover, 
+			url("images/intro.jpg") no-repeat center center / cover;
+	background-attachment: fixed;
+	}
+
+	#conclusion .content {
+		position: relative;
+		z-index: 2; /* Ensure content is above the overlay */
+		color: white; /* Change text color for better contrast */
+		padding: 200px; /* Add padding for better spacing */
+		width: 100%;
+		
+	}
+
+	#conclusion .button{
+		z-index: 8;
+	}
+
+	
+
 /* Two */
 
 	#two {
@@ -2759,12 +2784,13 @@ input, select, textarea {
 		}
 	
 /* Example styles for mobile responsiveness */
-@media (max-width: 865px) {
+@media (max-width: 870px) {
 	.dropdown {
 		visibility: visible !important;
 		position: absolute !important;
 		right: 50px;
 		top: -1px;
+		
 		
 	}
     .nav-links {
@@ -2772,12 +2798,15 @@ input, select, textarea {
     }
 
 
-    /* .dropdown-toggle {
-        background: none;
-        border: none;
-        font-size: 1.2em;
-        cursor: pointer;
-    } */
+    .dropdown-toggle {
+		width: 150px;
+        background: inherit;
+		color: black;
+    }
+
+	.dropdown-toggle:hover {
+		background-color: inherit;
+	}
 
     .dropdown-menu {
         position: absolute;
@@ -2788,8 +2817,10 @@ input, select, textarea {
         margin: 0;
         width: 150px;
         z-index: 10;
-		right: -35px;
+		right: 0px;
     }
+
+
 
 	.dropdown-menu a{
         width: 110px;
@@ -2798,6 +2829,10 @@ input, select, textarea {
 
 	.dropdown-menu li{
         text-align: center;
+    }
+
+	.dropdown-menu li:hover{
+        background-color: rgba(226, 217, 217, 0.712);
     }
 
     .dropdown-menu li {
@@ -2809,15 +2844,53 @@ input, select, textarea {
     }
 }
 
-@media (max-width: 560px) {
-	.dropdown {
-		visibility: hidden !important;
+@media (max-width: 680px) {
+	.dropdown-toggle {
+		color: white !important;
 	}
     .nav-links {
-        display: none; /* Hide the regular nav links on small screens */
+        display: none; 
+    } 
+	
+	#header nav button {
+		left: 100%;
+		
+	}
+	.dropdown-toggle{
+		/* color: white; */
+		background: url(./images/dropdown.png) !important;
+		background-size: 20px 20px !important;
+		background-repeat: no-repeat !important;
+		left: 90%;
+		top: 2px !important ;
+		border-radius: 0 !important;
+	}
+
+	.dropdown-menu {
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ccc;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        z-index: 10;
+		left: 75%;
     }
 
+	
 
+}
+
+@media (max-width: 465px) {
+	.dropdown-toggle {
+		visibility: hidden;
+	}
+
+	.dropdown-menu {
+		visibility: hidden;
+	}
+    
 }
 
 

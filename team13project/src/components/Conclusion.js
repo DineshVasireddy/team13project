@@ -9,8 +9,8 @@ const Conclusion = () => {
 
     return (
         <section id="conclusion" className="main style3 secondary">
-            {/* <div className="overlay"></div>  */}
-            <div className="content" id='conclusion-content'>
+            <div className="overlay"></div> 
+            <div className="content box" id='conclusion-content'>
                 <header>
                     <h2>Conclusion</h2>
                 </header>
