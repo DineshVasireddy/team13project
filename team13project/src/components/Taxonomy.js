@@ -1,5 +1,6 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
+
 import {
     Chart as ChartJS,
     LinearScale,
@@ -173,6 +174,106 @@ const Taxonomy = () => {
             applicationDomain: "Time synchronization services, DNS infrastructure",
             securityMechanism: "DNSSEC, cryptographic validation"
         },
+        {
+            title: "Improving Internet Infrastructure: BGP Predictability and Cloud DNS Performance",
+            problemDomain: "Internet Infrastructure Performance",
+            solution: "Predictability Models for BGP, DNS Performance Optimization",
+            approach: "Data Mining Models, Cloud DNS Study, BGP Molecules",
+            webArchitectureType: "Distributed Architecture, Cloud DNS Services",
+            evaluationMethodology: "Performance Measurements, Failure Prediction",
+            applicationDomain: "Internet Routing, Cloud Services",
+            securityMechanism: "Route Failure Prediction, DNS Performance Optimization"
+        },
+        {
+            title: "DNSSEC and Its Potential for DDoS Attacks",
+            problemDomain: "DNS Security Vulnerabilities",
+            solution: "DNSSEC for Cache Poisoning Protection, Mitigation Strategies for DDoS",
+            approach: "DNSSEC Measurement, Amplification Attack Analysis",
+            webArchitectureType: "Hierarchical DNS with Security Extensions",
+            evaluationMethodology: "Large-Scale DNSSEC Measurements",
+            applicationDomain: "DNS Security, Internet Infrastructure",
+            securityMechanism: "Digital Signatures, Amplification Attack Mitigation"
+        },
+        {
+            title: "Blockchain-Based DNS to Mitigate DDoS Attacks",
+            problemDomain: "DDoS Mitigation in DNS",
+            solution: "Blockchain-Based DNS",
+            approach: "Decentralized DNS Architecture",
+            webArchitectureType: "Distributed DNS with Blockchain",
+            evaluationMethodology: "Cost-Benefit Analysis, Architecture Testing",
+            applicationDomain: "Internet Security, Blockchain",
+            securityMechanism: "Decentralized DNS, Single Point Failure Elimination"
+        },
+        {
+            title: "A Blockchain-Based Architecture for Collaborative DDoS Mitigation with Smart Contracts",
+            problemDomain: "DDoS Protection Collaboration",
+            solution: "Blockchain and SDN for DDoS Mitigation",
+            approach: "Collaborative Traffic Classification, Smart Contracts",
+            webArchitectureType: "SDN-Enabled Distributed Architecture",
+            evaluationMethodology: "Performance Testing, Security Analysis",
+            applicationDomain: "Network Security, Distributed Systems",
+            securityMechanism: "Smart Contracts, Traffic Redirection"
+        },
+        {
+            title: "MTDNS: Moving Target Defense for Resilient DNS Infrastructure",
+            problemDomain: "DNS DDoS Protection",
+            solution: "Moving Target Defense with SDN and NFVs",
+            approach: "Dynamic DNS Traffic Redirection",
+            webArchitectureType: "Virtualized DNS Servers with SDN",
+            evaluationMethodology: "Testbed Experimentation, DNS Query Success Rate",
+            applicationDomain: "DNS Infrastructure, Network Security",
+            securityMechanism: "Dynamic DNS Redirection, MTD-based Defense"
+        },
+        {
+            title: "A Survey on DNS Encryption: Current Development, Malware Misuse, and Inference Techniques",
+            problemDomain: "Ensuring Privacy in DNS Communications, Detecting and Mitigating Malware",
+            solution: "Ensuring Privacy in DNS Communications, Detecting and Mitigating Malware",
+            approach: "Encryption at Transport Layer, Traffic Pattern Analysis, Machine Learning Techniques",
+            webArchitectureType: "Client-Server Architecture, Distributed DNS Architecture",
+            evaluationMethodology: "Empirical Performance Measurements, Simulation Studies, Machine Learning Model Testing.",
+            applicationDomain: "Internet Privacy and Security, Enterprise Network Security, Network Performance Optimization",
+            securityMechanism: "Transport Layer Encryption, Malware Detection via Machine Learning, Fallback Attack Mitigation"
+        },
+        {
+            title: "A Survey on DNS Security Issues and Mitigation Techniques.",
+            problemDomain: "DNS Security and Privacy",
+            solution: "Blockchain-Backed DNSSEC, CGuard, Oblivious DNS (ODNS)",
+            approach: "Blockchain-Based Validation, Privacy Preservation with ODNS, Detection Mechanisms",
+            webArchitectureType: "Distributed Hierarchical Architecture, Blockchain Integration",
+            evaluationMethodology: "Simulation Studies, Threshold-based Detection, Large-scale Data Analysis",
+            applicationDomain: "Cybersecurity, Internet Privacy",
+            securityMechanism: "Blockchain-based Validation, Intrusion Detection System (IDS), Encrypted DNSSEC (E-DNSSEC)"
+        },
+        {
+            title: "Survey on Domain Name System Security.",
+            problemDomain: "SDN-Based Architecture, with the added feature of Non-SDN Compatibility",
+            solution: "DNSSEC (Domain Name System Security Extensions), DNSCurve, P2P DNS Solutions (DDNS, CoDoNS).",
+            approach: "Digital Signatures and Encryption, Collaborative and Redundant Architectures.",
+            webArchitectureType: "Hierarchical Architecture, P2P-based Architecture",
+            evaluationMethodology: "Security Protocol Analysis, Performance Testing, Comparison of Solutions",
+            applicationDomain: "Network Security, Cloud and IoT Environments",
+            securityMechanism: "Digital Signatures (DNSSEC), Encryption (DNSCurve), Collaborative Query Systems (CoDNS, P2P)"
+        },
+        {
+            title: "An Inter-Domain Attack Mitigating Solution",
+            problemDomain: "Inter-Domain Cybersecurity Threats:, Lack of Efficient Coordination",
+            solution: "Attack Blocking System (ABS), SDN Integration",
+            approach: "Inter-ABS Communication, Attack Verification Module, Centralized and Distributed Designs. Web Architecture Type: SDN-Based Architecture, Non-SDN Compatibility",
+            webArchitectureType: "SDN-Based Architecture, with the added feature of Non-SDN Compatibility",
+            evaluationMethodology: "Simulations and Emulations, Performance Comparison with Flowspec Application Domain: Network Security, Enterprise Networks and ISPs.",
+            applicationDomain: "Network Security, specifically targeting Enterprise Networks and ISPs.",
+            securityMechanism: "Attack Detection and Notification, Trust Levels for Peers, Automated Blocking Rules"
+        },
+        {
+            title: "Security of the Domain Name System (DNS)",
+            problemDomain: "DNS Security and Policy Guidance, Policy-Making Guidance",
+            solution: "DNSSEC Implementation, Encrypted Transport Protocols, Registry Lock Mechanism",
+            approach: "Multi-Stakeholder Collaboration, Incident Response Frameworks, Policy and Incentives",
+            webArchitectureType: "Hierarchical Architecture, Decentralized Policy Coordination",
+            evaluationMethodology: "Case Studies of Past Incidents, DNSSEC Deployment Metrics, Policy Impact Assessments.",
+            applicationDomain: "National Security and Governance, ISP and Registrar Operations, Digital Economy and IoT.",
+            securityMechanism: "DNSSEC for Data Integrity, Encrypted DNS Protocols (DoH, DoT), Registry Lock and Access Controls."
+        }
     ];
 
     const dnsSecurityData = [
@@ -313,7 +414,7 @@ const Taxonomy = () => {
                             <li><strong>Blockchain:</strong> Use of decentralized technology for DNS and BGP security.</li>
                         </ul>
 
-                        <h3>Few Papers Overview</h3>
+                        <h3>All Papers Overview</h3>
                         <div id='needbigscreen' style={{visibility: 'hidden'}}><h1 style={{color :'red'}}>Need Big Screen Device to view content of the table clearly!</h1></div>
                         <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                             <thead>

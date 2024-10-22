@@ -33,7 +33,7 @@ const developers = [
         email: 'chirag.gupta@slu.edu', 
         image: chiragImg,
         role: 'Website Developer',
-        bio: '-',
+        bio: 'Current graduate student in Computer Science and Engineering at Saint Louis University. Passionate about Development and design new things.',
         papersWorked: [
             <a href="https://www.cerias.purdue.edu/assets/pdf/bibtex_archive/2011-15.pdf">:Improving Internet Infrastructure: BGP Predictability and Cloud DNS Performance</a>,
             <a href="https://dl.acm.org/doi/10.1145/2663716.2663731">DNSSEC and Its Potential for DDoS Attacks</a>,
@@ -54,7 +54,7 @@ const developers = [
         email: 'Sveeravalli@slu.edu', 
         image: sushmaImg,
         role: 'Content Validator',
-        bio: '-',
+        bio: 'Graduate from computer science and engineering at Slu University with prior experience of 5+years as a Technical Recruiter and 6months as Application developer.',
         papersWorked: [
             <a href="https://arxiv.org/abs/2201.00900">A Survey on DNS Encryption: Current Development, Malware Misuse, and Inference Techniques</a>,
             <a href="https://ieeexplore.ieee.org/document/9065354">A Survey on DNS Security Issues and Mitigation Techniques</a>,
@@ -75,7 +75,7 @@ const developers = [
         email: 'kmangineni@slu.edu', 
         image: karthikImg,
         role: 'Content Validator',
-        bio: '-',
+        bio: 'I am Karthik Mangineni, an enthusiastic software developer specializing in mobile app development with React Native. Currently pursuing a Master\'s in Computer Science at Saint Louis University, I have experience leading open-source projects and internships, and I am passionate about solving complex problems and enhancing user experiences.',
         papersWorked: [
             <a href="https://www.cs.princeton.edu/~jrex/papers/pieee09.pdf">A Survey of BGP Security Issues and Solutions</a>,
             <a href="https://dl.acm.org/doi/10.5555/850929.851984">Protecting BGP Routes to Top-Level DNS Servers</a>,
@@ -96,7 +96,7 @@ const developers = [
         email: 'pranitha.padala@slu.edu', 
         image: pranithaImg,
         role: 'Reporting and Delivery Lead',
-        bio: '-',
+        bio: 'Graduate student at saint louis university in computer science and engineering. Passionate about building and designing websites, with an interest in web development, programming, and emerging technologies.',
         papersWorked: [
             <a href="https://www.f5.com/labs/articles/cisotociso/bgp-dns-and-the-fragility-of-our-critical-systems">BGP, DNS, and the Fragility of our Critical Systems</a>,
             <a href="https://www.sciencedirect.com/science/article/abs/pii/S014036641731068X">The state of affairs in BGP security: A survey of attacks and defenses</a>,
