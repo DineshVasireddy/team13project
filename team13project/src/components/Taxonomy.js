@@ -132,7 +132,7 @@ const Taxonomy = () => {
             webArchitectureType: "Distributed networks",
             evaluationMethodology: "Case studies of recent cyberattackss",
             applicationDomain: "Internet infrastructure",
-            securityMechanism: "The security mechanisms are DNSSEC, RPKI, encryption, digital signatures, and proactive defense strategies."
+            securityMechanism: "The security mechanisms are DNSSEC, RPKI, encryption, digital signatures, and proactive defense strategies"
         },
         {
             title: "Protecting BGP Routes to Top-Level DNS Servers",
@@ -230,12 +230,12 @@ const Taxonomy = () => {
             solution: "Ensuring Privacy in DNS Communications, Detecting and Mitigating Malware",
             approach: "Encryption at Transport Layer, Traffic Pattern Analysis, Machine Learning Techniques",
             webArchitectureType: "Client-Server Architecture, Distributed DNS Architecture",
-            evaluationMethodology: "Empirical Performance Measurements, Simulation Studies, Machine Learning Model Testing.",
+            evaluationMethodology: "Empirical Performance Measurements, Simulation Studies, Machine Learning Model Testing",
             applicationDomain: "Internet Privacy and Security, Enterprise Network Security, Network Performance Optimization",
             securityMechanism: "Transport Layer Encryption, Malware Detection via Machine Learning, Fallback Attack Mitigation"
         },
         {
-            title: "A Survey on DNS Security Issues and Mitigation Techniques.",
+            title: "A Survey on DNS Security Issues and Mitigation Techniques",
             problemDomain: "DNS Security and Privacy",
             solution: "Blockchain-Backed DNSSEC, CGuard, Oblivious DNS (ODNS)",
             approach: "Blockchain-Based Validation, Privacy Preservation with ODNS, Detection Mechanisms",
@@ -245,10 +245,10 @@ const Taxonomy = () => {
             securityMechanism: "Blockchain-based Validation, Intrusion Detection System (IDS), Encrypted DNSSEC (E-DNSSEC)"
         },
         {
-            title: "Survey on Domain Name System Security.",
+            title: "Survey on Domain Name System Security",
             problemDomain: "SDN-Based Architecture, with the added feature of Non-SDN Compatibility",
-            solution: "DNSSEC (Domain Name System Security Extensions), DNSCurve, P2P DNS Solutions (DDNS, CoDoNS).",
-            approach: "Digital Signatures and Encryption, Collaborative and Redundant Architectures.",
+            solution: "DNSSEC (Domain Name System Security Extensions), DNSCurve, P2P DNS Solutions (DDNS, CoDoNS)",
+            approach: "Digital Signatures and Encryption, Collaborative and Redundant Architectures",
             webArchitectureType: "Hierarchical Architecture, P2P-based Architecture",
             evaluationMethodology: "Security Protocol Analysis, Performance Testing, Comparison of Solutions",
             applicationDomain: "Network Security, Cloud and IoT Environments",
@@ -260,8 +260,8 @@ const Taxonomy = () => {
             solution: "Attack Blocking System (ABS), SDN Integration",
             approach: "Inter-ABS Communication, Attack Verification Module, Centralized and Distributed Designs. Web Architecture Type: SDN-Based Architecture, Non-SDN Compatibility",
             webArchitectureType: "SDN-Based Architecture, with the added feature of Non-SDN Compatibility",
-            evaluationMethodology: "Simulations and Emulations, Performance Comparison with Flowspec Application Domain: Network Security, Enterprise Networks and ISPs.",
-            applicationDomain: "Network Security, specifically targeting Enterprise Networks and ISPs.",
+            evaluationMethodology: "Simulations and Emulations, Performance Comparison with Flowspec Application Domain: Network Security, Enterprise Networks and ISPs",
+            applicationDomain: "Network Security, specifically targeting Enterprise Networks and ISPs",
             securityMechanism: "Attack Detection and Notification, Trust Levels for Peers, Automated Blocking Rules"
         },
         {
@@ -270,9 +270,9 @@ const Taxonomy = () => {
             solution: "DNSSEC Implementation, Encrypted Transport Protocols, Registry Lock Mechanism",
             approach: "Multi-Stakeholder Collaboration, Incident Response Frameworks, Policy and Incentives",
             webArchitectureType: "Hierarchical Architecture, Decentralized Policy Coordination",
-            evaluationMethodology: "Case Studies of Past Incidents, DNSSEC Deployment Metrics, Policy Impact Assessments.",
-            applicationDomain: "National Security and Governance, ISP and Registrar Operations, Digital Economy and IoT.",
-            securityMechanism: "DNSSEC for Data Integrity, Encrypted DNS Protocols (DoH, DoT), Registry Lock and Access Controls."
+            evaluationMethodology: "Case Studies of Past Incidents, DNSSEC Deployment Metrics, Policy Impact Assessments",
+            applicationDomain: "National Security and Governance, ISP and Registrar Operations, Digital Economy and IoT",
+            securityMechanism: "DNSSEC for Data Integrity, Encrypted DNS Protocols (DoH, DoT), Registry Lock and Access Controls"
         }
     ];
 
